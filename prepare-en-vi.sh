@@ -15,8 +15,8 @@ CLEAN=$SCRIPTS/training/clean-corpus-n.perl
 BPEROOT=subword-nmt/subword_nmt
 BPE_TOKENS=10000
 
-URL=https://github.com/hoangtrungchinh/clc_data/blob/master/en-vi.tar.xz
-GZ=en-vi.tar.xz
+URL=https://github.com/hoangtrungchinh/clc_data/blob/master/en-vi.zip
+GZ=en-vi.zip
 
 src=en
 tgt=vi
@@ -38,7 +38,7 @@ else
     exit
 fi
 
-tar -xf $GZ
+unzip $GZ
 cd ..
 
 
