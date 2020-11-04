@@ -15,7 +15,7 @@ CLEAN=$SCRIPTS/training/clean-corpus-n.perl
 BPEROOT=subword-nmt/subword_nmt
 BPE_TOKENS=10000
 
-URL=https://github.com/hoangtrungchinh/clc_data/raw/master/en-vi-data.tar.xz
+URL=https://github.com/hoangtrungchinh/clc_data/blob/master/en-vi.tar.xz
 GZ=en-vi-data.tar.xz
 
 src=en
