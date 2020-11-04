@@ -16,7 +16,7 @@ BPEROOT=subword-nmt/subword_nmt
 BPE_TOKENS=10000
 
 URL=https://github.com/hoangtrungchinh/clc_data/blob/master/en-vi.tar.xz
-GZ=en-vi-data.tar.xz
+GZ=en-vi.tar.xz
 
 src=en
 tgt=vi
